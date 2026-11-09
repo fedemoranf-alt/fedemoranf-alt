@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Ultrasonic Time-of-Flight DSP">
+<defs>
+<linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16161e"/><stop offset="1" stop-color="#1f2335"/></linearGradient>
+<radialGradient id="halo" cx=".84" cy=".5" r=".32"><stop offset="0" stop-color="#ff9e64" stop-opacity=".16"/><stop offset="1" stop-color="#ff9e64" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#fondo)"/>
+<rect width="1200" height="360" rx="22" fill="url(#halo)"/>
+<rect x="0" y="40" width="8" height="280" rx="4" fill="#ff9e64"/>
+<g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+<text x="72" y="84" font-size="17" font-weight="600" fill="#ff9e64" letter-spacing="2.5">EMBEDDED · DSP · CONTROL</text>
+<text x="72" y="150" font-size="46" font-weight="700" fill="#f5f7fa">Ultrasonic Time-of-Flight DSP</text>
+<text x="72" y="200" font-size="23" fill="#a9b1d6">A ~1 MHz echo sampled at 800 kS/s on a PSoC 5LP + ESP32</text>
+<rect x="72" y="262" width="115" height="38" rx="19" fill="#ff9e64" fill-opacity=".13" stroke="#ff9e64" stroke-opacity=".6"/><text x="129" y="288" font-size="19" fill="#e5e9f0" text-anchor="middle">PSoC 5LP</text><rect x="199" y="262" width="84" height="38" rx="19" fill="#ff9e64" fill-opacity=".13" stroke="#ff9e64" stroke-opacity=".6"/><text x="241" y="288" font-size="19" fill="#e5e9f0" text-anchor="middle">ESP32</text><rect x="295" y="262" width="125" height="38" rx="19" fill="#ff9e64" fill-opacity=".13" stroke="#ff9e64" stroke-opacity=".6"/><text x="357" y="288" font-size="19" fill="#e5e9f0" text-anchor="middle">CMSIS-DSP</text><rect x="432" y="262" width="94" height="38" rx="19" fill="#ff9e64" fill-opacity=".13" stroke="#ff9e64" stroke-opacity=".6"/><text x="479" y="288" font-size="19" fill="#e5e9f0" text-anchor="middle">MATLAB</text>
+</g>
+<g transform="translate(895 50)" stroke="#ff9e64" fill="#ff9e64" stroke-linecap="round" stroke-linejoin="round" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+<rect x="10" y="95" width="34" height="70" rx="6" fill="none" stroke-width="5"/>
+<rect x="216" y="95" width="34" height="70" rx="6" fill="none" stroke-width="5"/>
+<path d="M62 105 q10 25 0 50 M80 92 q18 38 0 76 M98 80 q26 50 0 100" fill="none" stroke-width="5" opacity=".9"/>
+<path d="M120 130 h14 l6 -30 l8 60 l8 -78 l8 96 l8 -60 l6 12 h20" fill="none" stroke-width="4"/>
+</g>
+</svg>

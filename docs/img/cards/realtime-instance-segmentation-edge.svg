@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Real-Time Segmentation on CPU">
+<defs>
+<linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16161e"/><stop offset="1" stop-color="#1f2335"/></linearGradient>
+<radialGradient id="halo" cx=".84" cy=".5" r=".32"><stop offset="0" stop-color="#7aa2f7" stop-opacity=".16"/><stop offset="1" stop-color="#7aa2f7" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="360" rx="22" fill="url(#fondo)"/>
+<rect width="1200" height="360" rx="22" fill="url(#halo)"/>
+<rect x="0" y="40" width="8" height="280" rx="4" fill="#7aa2f7"/>
+<g font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+<text x="72" y="84" font-size="17" font-weight="600" fill="#7aa2f7" letter-spacing="2.5">MACHINE LEARNING · DATA</text>
+<text x="72" y="150" font-size="46" font-weight="700" fill="#f5f7fa">Real-Time Segmentation on CPU</text>
+<text x="72" y="200" font-size="23" fill="#a9b1d6">YOLOv8n-seg exported to OpenVINO: 35 FPS with no GPU</text>
+<rect x="72" y="262" width="104" height="38" rx="19" fill="#7aa2f7" fill-opacity=".13" stroke="#7aa2f7" stroke-opacity=".6"/><text x="124" y="288" font-size="19" fill="#e5e9f0" text-anchor="middle">PyTorch</text><rect x="188" y="262" width="94" height="38" rx="19" fill="#7aa2f7" fill-opacity=".13" stroke="#7aa2f7" stroke-opacity=".6"/><text x="236" y="288" font-size="19" fill="#e5e9f0" text-anchor="middle">YOLOv8</text><rect x="295" y="262" width="115" height="38" rx="19" fill="#7aa2f7" fill-opacity=".13" stroke="#7aa2f7" stroke-opacity=".6"/><text x="352" y="288" font-size="19" fill="#e5e9f0" text-anchor="middle">OpenVINO</text><rect x="421" y="262" width="125" height="38" rx="19" fill="#7aa2f7" fill-opacity=".13" stroke="#7aa2f7" stroke-opacity=".6"/><text x="484" y="288" font-size="19" fill="#e5e9f0" text-anchor="middle">Live demo</text>
+</g>
+<g transform="translate(895 50)" stroke="#7aa2f7" fill="#7aa2f7" stroke-linecap="round" stroke-linejoin="round" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+<path d="M20 60 V20 H60 M200 20 H240 V60 M240 200 V240 H200 M60 240 H20 V200" fill="none" stroke-width="6"/>
+<path d="M70 190 C60 150 80 110 110 95 C125 60 165 60 175 95 C205 110 205 165 190 190 Z" stroke="none" opacity=".3"/>
+<path d="M70 190 C60 150 80 110 110 95 C125 60 165 60 175 95 C205 110 205 165 190 190 Z" fill="none" stroke-width="4"/>
+<rect x="20" y="0" width="92" height="22" rx="4" stroke="none" opacity=".85"/>
+</g>
+</svg>
